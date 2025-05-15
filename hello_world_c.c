@@ -1,8 +1,7 @@
-/* Inclusion des bibliothèques standards */
-#include <stdio.h>   // Pour les fonctions d'entrée/sortie (printf, scanf)
-/* Fonction principale */
+#include <stdio.h> // Permet d'utiliser printf
+
 int main() {
-    /* Demander à l'utilisateur de saisir la valeur de a */
-    printf("Hello,World!");// Affiche un message à l'écran
-    return 0;
+    // Affiche Hello, World! à l'écran
+    printf("Hello, World!\n");
+    return 0; // Fin du programme
 }
