@@ -1,4 +1,5 @@
 #include <stdio.h> // pour printf et scanf
+#include <math.h>
 int n,mod;// pour stocker le nombre
 int main() {
     scanf("%d", &n);// on lit un nombre
