@@ -6,7 +6,8 @@ int main() {
     mod = n%2;
     if (mod == 0) {
         printf("%d est un nombre pair.\n", n);
-    }else{
+    }
+    if(mod != 0){
         printf("%d est un nombre impair.\n", n);
     }
     return 0; // fin du programme
