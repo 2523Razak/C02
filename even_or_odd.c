@@ -1,18 +1,16 @@
-#include <stdio.h> // Pour utiliser scanf et printf
+#include <stdio.h> // Pour pouvoir utiliser scanf et printf
 
 int main() {
     int n; // Déclare une variable pour stocker le nombre
 
-    // Lire un entier saisi par l'utilisateur
+    // Lire un nombre entier saisi par l'utilisateur
     scanf("%d", &n);
 
-    // Vérifie si le nombre est divisible par 2 (donc pair)
+    // Vérifie si le nombre est pair (divisible par 2)
     if (n % 2 == 0) {
         printf("%d est un nombre pair.\n", n);
-    }
-
-    // Vérifie si le nombre n'est pas divisible par 2 (donc impair)
-    if (n % 2 != 0) {
+    } else {
+        // Sinon, le nombre est impair
         printf("%d est un nombre impair.\n", n);
     }
 
