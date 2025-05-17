@@ -1,8 +1,8 @@
 #include <stdio.h>  // pour printf et scanf
 
 int main() {
-    int normbre
-    scanf("%d",&nombre)
+    int normbre;
+    scanf("%d",&nombre);
     // Vérification avec l'opérateur modulo
     if (nombre % 2 == 0) {
         // Si le reste de la division par 2 est 0, alors c'est pair
