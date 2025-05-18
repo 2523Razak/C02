@@ -1,15 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int n = 0;
+    int nombre = 0;
 
-    scanf("%d", &n); // Lit un entier entré par l'utilisateur
+    scanf("%d", &nombre); // lire entre de l'utilisateur 
+// la condition qui permet de diviser par  2
+    if ( nombre % 2 == 0 ) {
     
-    if (nombre % 2 == 0) { // Vérifie si le nombre est divisible par 2
-        printf("%d est pair.\n", n); // Affiche "pair" si vrai
+        printf("%d est pair.\n", nombre);
     } else {
-        printf("%d est impair.\n", n); // Affiche "impair" sinon
+        
+        printf("%d est impair.\n", nombre);
     }
-    return 0;
+    return 0; 
 }
-// Programme qui vérifie si un nombre est pair ou impair.
+// c'est un programme qui lit un nombre entier et affiche s'il est pair ou impair
