@@ -1,20 +1,17 @@
-#include <stdio.h>
+#include <stdio.h>  // Pour scanf et printf
 
 int main() {
-    int n = 0;
-    int i = 1;
-    int resultat = 1;
+    int n = 0;       // Le nombre entré par l'utilisateur
+    int resultat = 1; // Pour stocker le factoriel (initialisé à 1)
 
-    scanf("%d", &n); // lire un entier
+    scanf("%d", &n); // Lire le nombre
 
-    // boucle pour calculer le factoriel
-    for (i = 1; i <= n; i++) {
-        resultat = resultat * i;
+    for (int i = 1; i <= n; i++) {
+        resultat *= i; // Calculer le factoriel (équivalent à resultat = resultat * i)
     }
 
-    // afficher le résultat
-    printf("Le factoriel de %d est %d\n", n, resultat);
+    printf("Le factoriel de %d est : %d\n", n, resultat); // Afficher le résultat
 
     return 0;
 }
-// C'est un programme qui lit un entier et affiche son factoriel avec une boucle
+// Ce programme calcule et affiche le factoriel d'un nombre entier
